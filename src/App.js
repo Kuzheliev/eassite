@@ -12,7 +12,7 @@ export default function ModernBusinessCard() {
   const [activeSection, setActiveSection] = useState('top');
   const email = "hello@domain.com";
   const phone = "+421 900 000 000";
-
+   
   const serviceCards = t("serviceCards").map((card, index) => {
     let image;
     if (index === 0) image = serviceWeb;
