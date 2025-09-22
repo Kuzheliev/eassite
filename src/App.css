@@ -1,38 +1,305 @@
-.App {
-  text-align: center;
+/* Основные стили для сайта-визитки */
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #71a5f3; /* cream color for entire page */
+  color: #dfecff;             /* default text color */
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Header */
+header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding-top: 1rem;
+}
+
+header a.logo {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 3rem;
+  width: 3rem;
+  font-weight: bold;
   color: white;
+  background: linear-gradient(90deg, #6366f1, #8b5cf6);
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+header a.logo:hover {
+  transform: scale(1.05);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+nav {
+  padding-top: 0.5rem; /* shifts all nav links */
+  margin-right: 20px;  /* adjust spacing as needed */
+  text-decoration: none;
+}
+
+nav a {
+  position: relative;
+  padding: 0.25rem 0.5rem;
+  color: #4b5563;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #6366f1;
+}
+
+nav a.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0.2rem;
+  background-color: #6366f1;
+  border-radius: 9999px;
+}
+
+/* Sections */
+section {
+  opacity: 0;
+  transform: translateY(2rem);
+  transition: all 0.7s ease-out;
+  margin-bottom: 5rem;
+}
+
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+section h2 {
+  text-align: center;
+  font-size: 2rem;     /* optional: make them stand out */
+  font-weight: 700;    /* optional: bolder look */
+  margin-bottom: 2rem;
+  color: #ffffff; /* spacing below title */
+}
+/* Hero */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #ffffff;        /* black text */
+  margin-bottom: 1rem;
+}
+p {
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+/* Buttons */
+button, a.button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+button.primary, a.button.primary {
+  background-color: #6366f1;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+button.primary:hover, a.button.primary:hover {
+  background-color: #4f46e5;
+}
+
+button.secondary, a.button.secondary {
+  background-color: white;
+  border: 1px solid #d1d5db;
+  color: #6366f1;
+}
+
+button.secondary:hover, a.button.secondary:hover {
+  background-color: #f3f4f6;
+}
+
+/* Cards */
+.card {
+position: relative;
+  background-image: url('/src/wwwroot/services-01.webp'); /* путь к картинке */
+  background-size: cover;      /* растягивает на всю карточку */
+  background-position: center; /* центрирование */
+  background-repeat: no-repeat;
+  color: white;                /* текст на фоне лучше видно */
+  padding: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* Полупрозрачный слой для текста, чтобы текст читался на фоне */
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+
+.card > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Cards-portfoli*/
+.card-portfolio {
+position: relative;
+  background-image: url('/src/wwwroot/back.jpg'); /* путь к картинке */
+  background-size: cover;      /* растягивает на всю карточку */
+  background-position: center; /* центрирование */
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);                /* текст на фоне лучше видно */
+  padding: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card-portfolio:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* Полупрозрачный слой для текста, чтобы текст читался на фоне */
+.card-portfolio::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+
+.card-portfolio > * {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+/* Footer */
+footer {
+  text-align: center;
+  color: #9ca3af;
+  margin-top: 5rem;
+  font-size: 0.875rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* Нижние кнопки в один ряд с отступами */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* Расстояние между кнопками */
+  margin-bottom: 2rem; /* Отступ снизу */
+}
+
+/* Кнопка Telegram по центру */
+.telegram-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.telegram-button-container .button {
+padding: 0.75rem 1.5rem;
+border-radius: 1rem;
+font-weight: 500;
+transition: all 0.3s;
+cursor: pointer;
+background-color: #6366f1;
+color: white;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+
+.telegram-button-container .button:hover {
+background-color: #4f46e5;
+}
+
+#langSelect {
+  background-color: transparent;      /* transparent background */
+  border: 1px solid #ccc;             /* keep subtle border */
+  border-radius: 8px;                 /* rounded corners */
+  padding: 8px 16px;
+  font-size: 16px;
+  color: #020202;                     /* white text for contrast */
+  margin-left: 1rem;                  /* space from the left */
+  box-shadow: none;                   /* remove shadow for cleaner look */
+  transition: border-color 0.3s, box-shadow 0.3s;
+  cursor: pointer;                /* Pointer on hover */
+}
+
+#langSelect:focus {
+  border-color: #3b82f6;              /* blue border on focus */
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+  outline: none;                   /* Remove default outline */
+}
+
+#top {
+  position: relative; /* чтобы полупрозрачный слой работал */
+  background-image: url('/src/wwwroot/back2.jpg'); /* путь к твоей картинке */
+  background-size: cover;       /* растягивает фон на всю секцию */
+  background-position: center;  /* центрирует картинку */
+  background-repeat: no-repeat;
+  min-height: 100vh;            /* секция на весь экран */
+  color: rgb(255, 255, 255);                 /* если фон темный, текст будет виден */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* Полупрозрачный слой для лучшей читаемости текста */
+#top::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* затемнение */
+  z-index: 0;
+}
+
+#top > * {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+/* Optional: for smaller screens */
+@media (max-width: 768px) {
+  #top {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
   }
 }

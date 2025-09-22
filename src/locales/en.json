@@ -1,0 +1,32 @@
+{
+  "name": "Electrical Automation Solution",
+  "title": "About Us ",
+  "description": "Our company provides specialized electrical design services with a strong focus on the automotive, industrial, and agricultural sectors. We deliver innovative, efficient, and safe electrical systems that meet the highest European standards. With years of engineering expertise, we help our clients optimize processes, increase energy efficiency, and ensure long-term reliability.",
+  "services": "Services",
+  "portfolio": "Portfolio",
+  "contact": "Contact",
+  "emailButton": "Contact via Email",
+  "viewServicesButton": "View Services",
+  "copyEmail": "Copied!",
+  "copyPhone": "Copied!",
+  "telegramButton": "Message on Telegram",
+  "footer": "© {year} Electrical Automation Solution",
+  "serviceCards": [
+    {
+     "title": "Electrical design for automotive production lines and testing facilities",
+     "desc": "Development of complete electrical solutions for automotive manufacturing and testing, ensuring high efficiency, precision, and compliance with industry standards.",
+     "image": "/src/wwwroot/back2.jpg"
+    },
+    {
+    "title": "Electrical design for specialized machinery and industrial equipment", 
+    "desc": "Engineering of electrical systems for single-purpose machines, conveyors, industrial press machines, prototype equipment, and solutions for the agricultural sector.",
+    "image": "/src/wwwroot/back2.jpg"    
+  },
+    {
+    "title": "Modernization and automation with advanced control technologies",
+    "desc": "Proposals and implementation of PLC equipment, replacing outdated systems with new technologies for improved reliability, flexibility, and automation.",
+    "image": "/src/wwwroot/back2.jpg" 
+  }
+  ],
+  "portfolioItems": ["Project 1","Project 2","Project 3","Project 4"]
+}

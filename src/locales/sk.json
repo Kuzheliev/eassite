@@ -1,0 +1,20 @@
+{
+  "name": "Electrical Automation Solution",
+  "title": "Dizajnér & Frontend Vývojár",
+  "description": "Vytváram minimalistické rozhrania, rýchle weby a prehľadné vizuálne systémy.",
+  "services": "Služby",
+  "portfolio": "Portfólio",
+  "contact": "Kontakt",
+  "emailButton": "Kontaktovať cez Email",
+  "viewServicesButton": "Zobraziť Služby",
+  "copyEmail": "Skopírované!",
+  "copyPhone": "Skopírované!",
+  "telegramButton": "Poslať správu na Telegrame",
+  "footer": "© {year} Electrical Automation Solution",
+  "serviceCards": [
+    {"title": "Elektroprojektovanie pre automobilové výrobné linky a testovacie zariadenia", "desc": "Návrh komplexných elektroinštalácií pre automobilovú výrobu a testovanie s dôrazom na efektívnosť, presnosť a dodržiavanie priemyselných štandardov."},
+    {"title": "Elektroprojektovanie pre špeciálne stroje a priemyselné zariadenia", "desc": "Projektovanie elektrických systémov pre jednoúčelové stroje, dopravníky, priemyselné lisy, prototypové zariadenia a technológie v poľnohospodárstve."},
+    {"title": "Modernizácia a automatizácia s využitím pokročilých riadiacich technológií", "desc": "Návrhy a implementácia PLC zariadení, náhrada zastaraných systémov novými technológiami s vyššou spoľahlivosťou, flexibilitou a automatizáciou."}  
+  ],
+  "portfolioItems": ["Projekt 1", "Projekt 2", "Projekt 3", "Projekt 4"]
+}
