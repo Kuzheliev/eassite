@@ -1,7 +1,7 @@
 {
   "name": "Electrical Automation Solution",
-  "title": "Dizajnér & Frontend Vývojár",
-  "description": "Vytváram minimalistické rozhrania, rýchle weby a prehľadné vizuálne systémy.",
+  "title": "O nás",
+  "description": "Naša spoločnosť poskytuje špecializované služby v oblasti elektrotechnického dizajnu so silným zameraním na automobilový, priemyselný a poľnohospodársky sektor. Dodávame inovatívne, efektívne a bezpečné elektrické systémy, ktoré spĺňajú najvyššie európske normy. Vďaka dlhoročným skúsenostiam v inžinierstve pomáhame našim klientom optimalizovať procesy, zvyšovať energetickú efektívnosť a zabezpečovať dlhodobú spoľahlivosť.",
   "services": "Služby",
   "portfolio": "Portfólio",
   "contact": "Kontakt",
@@ -12,9 +12,12 @@
   "telegramButton": "Poslať správu na Telegrame",
   "footer": "© {year} Electrical Automation Solution",
   "serviceCards": [
-    {"title": "Elektroprojektovanie pre automobilové výrobné linky a testovacie zariadenia", "desc": "Návrh komplexných elektroinštalácií pre automobilovú výrobu a testovanie s dôrazom na efektívnosť, presnosť a dodržiavanie priemyselných štandardov."},
-    {"title": "Elektroprojektovanie pre špeciálne stroje a priemyselné zariadenia", "desc": "Projektovanie elektrických systémov pre jednoúčelové stroje, dopravníky, priemyselné lisy, prototypové zariadenia a technológie v poľnohospodárstve."},
-    {"title": "Modernizácia a automatizácia s využitím pokročilých riadiacich technológií", "desc": "Návrhy a implementácia PLC zariadení, náhrada zastaraných systémov novými technológiami s vyššou spoľahlivosťou, flexibilitou a automatizáciou."}  
+    {"title": "Elektroprojektovanie pre automobilové výrobné linky a testovacie zariadenia", 
+    "desc": "Vývoj kompletných elektrických riešení pre automobilovú výrobu a testovanie, ktorý zaručuje vysokú efektívnosť, presnosť a dodržiavanie priemyselných štandardov."},
+    {"title": "Elektrotechnický dizajn pre špecializované stroje a priemyselné zariadenia", 
+    "desc": "Inžiniering elektrických systémov pre jednoúčelové stroje, dopravníky, priemyselné lisy, prototypové zariadenia a riešenia pre poľnohospodársky sektor."},
+    {"title": "Modernizácia a automatizácia s využitím pokročilých riadiacich technológií", 
+    "desc": "Návrhy a implementácia PLC zariadení, náhrada zastaraných systémov novými technológiami s vyššou spoľahlivosťou, flexibilitou a automatizáciou."}  
   ],
   "portfolioItems": ["Projekt 1", "Projekt 2", "Projekt 3", "Projekt 4"]
 }

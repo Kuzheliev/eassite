@@ -13,7 +13,7 @@
   "footer": "© {year} Electrical Automation Solution",
   "serviceCards": [
     {
-     "title": "Electrical design for automotive production lines and testing facilities",
+     "title": "Elektrotechnický dizajn pre automobilové výrobné linky a testovacie zariadenia",
      "desc": "Development of complete electrical solutions for automotive manufacturing and testing, ensuring high efficiency, precision, and compliance with industry standards.",
      "image": "/src/wwwroot/back2.jpg"
     },
