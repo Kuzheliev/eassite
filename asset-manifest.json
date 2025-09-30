@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/eassite/static/css/main.497facdd.css",
-    "main.js": "/eassite/static/js/main.3e354d19.js",
-    "static/js/453.96453769.chunk.js": "/eassite/static/js/453.96453769.chunk.js",
-    "static/media/rolled.png": "/eassite/static/media/rolled.be2a0a854059576b9450.png",
-    "static/media/back2.jpg": "/eassite/static/media/back2.7cf20bb119bb49b441b3.jpg",
-    "static/media/back.jpg": "/eassite/static/media/back.61453b6f20910d25c737.jpg",
-    "static/media/blueprints.jpg": "/eassite/static/media/blueprints.1e94391956cd0180c646.jpg",
-    "static/media/services-01.webp": "/eassite/static/media/services-01.3f3c3ee7f3db4a0914de.webp",
-    "index.html": "/eassite/index.html",
-    "main.497facdd.css.map": "/eassite/static/css/main.497facdd.css.map",
-    "main.3e354d19.js.map": "/eassite/static/js/main.3e354d19.js.map",
-    "453.96453769.chunk.js.map": "/eassite/static/js/453.96453769.chunk.js.map"
+    "main.css": "/static/css/main.c9b2846d.css",
+    "main.js": "/static/js/main.e505cbb8.js",
+    "static/js/453.96453769.chunk.js": "/static/js/453.96453769.chunk.js",
+    "static/media/rolled.png": "/static/media/rolled.be2a0a854059576b9450.png",
+    "static/media/back2.jpg": "/static/media/back2.7cf20bb119bb49b441b3.jpg",
+    "static/media/back.jpg": "/static/media/back.61453b6f20910d25c737.jpg",
+    "static/media/blueprints.jpg": "/static/media/blueprints.1e94391956cd0180c646.jpg",
+    "static/media/services-01.webp": "/static/media/services-01.3f3c3ee7f3db4a0914de.webp",
+    "index.html": "/index.html",
+    "main.c9b2846d.css.map": "/static/css/main.c9b2846d.css.map",
+    "main.e505cbb8.js.map": "/static/js/main.e505cbb8.js.map",
+    "453.96453769.chunk.js.map": "/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.497facdd.css",
-    "static/js/main.3e354d19.js"
+    "static/css/main.c9b2846d.css",
+    "static/js/main.e505cbb8.js"
   ]
 }
